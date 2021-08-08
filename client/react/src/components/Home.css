@@ -1,0 +1,17 @@
+
+.list-group{
+    /* position: fixed; */
+    /* top:20%; */
+    
+}
+.carousel {
+    position: relative;
+    height: fit-content;
+    /* margin-top: 40px; */
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* height: 100%; */
+}

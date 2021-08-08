@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "cd server && npm start",
+    "react": "cd client\\react && npm start",
+    "dev": "concurrently \"npm run server\"  \"npm run react\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client\react && npm run build --prefix client\react"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/date-fns": "^2.6.0",
+    "concurrently": "^5.3.0",
+    "date-fns": "^2.23.0"
+  }
+}
